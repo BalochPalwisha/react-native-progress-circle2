@@ -1,11 +1,14 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
-[![Version](https://img.shields.io/npm/v/react-native-progress-circle.svg)](https://www.npmjs.com/package/react-native-progress-circle)
-[![npm](https://img.shields.io/npm/dt/react-native-progress-circle.svg)](https://www.npmjs.com/package/react-native-progress-circle)
-[![Twitter Follow](https://img.shields.io/twitter/follow/cmichelio.svg?style=social&label=Follow)](https://twitter.com/cmichelio)
+[![npm](https://img.shields.io/npm/dt/react-native-progress-circle2.svg)](https://www.npmjs.com/package/react-native-progress-circle2)
 
-# React Native Progress Circle
+
+# React Native Progress Circle2
 
 ![React Native Progress Circles](/README/featured.png?raw=true "React Native Progress Circles")
+
+:white_check_mark: Fixed the following error for latest RN version
+
+:x:  Invariant Violation: ViewPropTypes has been removed from React Native. Migrate to ViewPropTypes exported from `deprecated-react-native-prop-types`
 
 ## Features
 
@@ -15,16 +18,16 @@
 
 ## Installation
 
-`yarn add react-native-progress-circle`
+`yarn add react-native-progress-circle2`
 
 or
 
-`npm install --save react-native-progress-circle`
+`npm install --save react-native-progress-circle2`
 
 ## Usage
 
 ```javascript
-import ProgressCircle from 'react-native-progress-circle'
+import ProgressCircle from 'react-native-progress-circle2'
 
 render() {
     return (
@@ -55,9 +58,6 @@ render() {
 | containerStyle | The custom styling which will be applied to the container of the `children` | Style |  | `null` |
 | outerCircleStyle | The custom styling which will be applied to the outer circle | Style |  | `null` |
 
-## Author
-
-[Christoph Michel](http://cmichel.io)
 
 ## Implementation Details
 
