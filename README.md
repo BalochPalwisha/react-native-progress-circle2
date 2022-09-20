@@ -1,5 +1,5 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
-[![npm](https://img.shields.io/npm/dt/react-native-progress-circle2.svg)](https://www.npmjs.com/package/react-native-progress-circle2)
+
 
 
 # React Native Progress Circle2
